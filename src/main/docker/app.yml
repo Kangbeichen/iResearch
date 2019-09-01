@@ -1,7 +1,7 @@
 version: '2'
 services:
     iresearch-app:
-        image: iresearch
+        image: iresearch1
         environment:
             - SPRING_PROFILES_ACTIVE=prod,swagger
             - SPRING_DATASOURCE_URL=jdbc:mysql://iresearch-mysql:3306/iresearch?useUnicode=true&characterEncoding=utf8&useSSL=false
